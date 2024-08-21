@@ -1,0 +1,41 @@
+$color:black;
+
+header{
+  h1{
+    color:red;
+  }
+}
+
+p{
+  color:$color;
+}
+
+button{
+  color:$color;
+
+  &:hover{
+    color:red;
+  }
+
+  &:active{
+    
+  }
+}
+h3{
+  background-color:$color;
+}
+
+h2{
+  font:{
+    size:12px;
+    weight:200;
+    famiily:serif;
+  }
+}
+
+p{
+  margin:{
+    left:2px;
+    right:3px;
+  }
+}

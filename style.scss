@@ -1,0 +1,16 @@
+$change:pink;
+h1{
+    color:red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid;
+
+    font:{
+        size: 60px;
+        family:monospace;
+        weight: 100;
+    }
+
+    &:hover{
+        color:$change;
+      }
+  }
